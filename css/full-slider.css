@@ -50,10 +50,15 @@ iframe {
 .projectImg {
   width: 500px;
   height: auto;
+  min-height: 375px;
 }
 
 #bio {
   margin: auto;
+}
+
+#spaceDiv {
+  min-height: 50px;
 }
 
 #tarah {
@@ -65,6 +70,7 @@ iframe {
   width: 100%;
   max-width: 750px;
   height: auto;
+  max-height: 755px;
   margin: auto;
 }
 
@@ -113,6 +119,10 @@ iframe {
    color: rgb(34,139,142);
 }
 
+.carousel-control-prev, .carousel-control-next {
+  min-height: 375px;
+}
+
 .carousel-control-prev-icon, .carousel-control-next-icon {
   outline: black;
   background-image: none;
@@ -138,6 +148,9 @@ iframe {
   color: white;
 }
 
+footer {
+  max-height: 
+}
 
 /* color pallet:
 darkcyan: rgb(34,139,142),

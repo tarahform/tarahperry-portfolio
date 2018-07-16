@@ -1,0 +1,24 @@
+{
+  "name": "tarahperry-portfolio",
+  "version": "1.0.0",
+  "description": "[Full Slider](http://startbootstrap.com/template-overviews/full-slider/) is an HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features a full page image slider header with captions.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarahform/tarahperry-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarahform/tarahperry-portfolio/issues"
+  },
+  "homepage": "https://github.com/tarahform/tarahperry-portfolio#readme"
+}

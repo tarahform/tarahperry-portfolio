@@ -55,6 +55,7 @@
       </div>
     </div>
   </nav>
+  <hr id="navHR">
 
   <!-- Page Content -->
   <div class="jumbotron text-center" align="center" id="aboutMe">
@@ -62,21 +63,29 @@
       <div class="col-md-6">
         <img class="rounded-circle" src="./img/tarahperry.jpg" alt="Tarah Perry" id="tarah">
       </div>
-      <div class="col-md-6">
-        <h1>About me</h1>
-        <p>Me me me me me
+      <div class="col-md-6" id="bio">
+        <h3 id="bioTitle">About me</h3>
+        <hr>
+        <p id="bioText">Hi there! My name is Tarah Perry (AKA: Tarah Dactyl) and I'm a web developer, cave geek, and outdoor enthusiast.
+          I love to build (web applications, tables, legos, fires, etc), and I love learning how to build better. I graduated
+          from Southwestern Unversity in May 2013 with a B.S. in Geo Physics. I grew up just east of Austin, TX, and have
+          an affinity for tiny home livin', food trucks, and live music. Away from the desk chair I can be found hiking,
+          bouldering at the gym, at my favorite neighborhood pub, or making myself some delicious Tom Kha.
         </p>
       </div>
     </div>
   </div>
 
-  <header>
-    <div class="row text-center">
-      <div class="col-md-12">
-        <h1>Projects</h1>
-        <p>Click Left or right to scroll.</p>
-      </div>
+  <hr>
+  <div class="row text-center">
+    <div class="col-md-12">
+      <h3>Projects</h3>
+      <p>Click Left or right to scroll.</p>
     </div>
+  </div>
+  <hr>
+
+  <header>
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -89,10 +98,12 @@
         <!-- Slide one - Set the background image for this slide in the line below -->
         <div class="carousel-item active" id="createoh">
           <div class="row" align="center">
-            <div class="col-md-12">
-              <img src="./img/createoh.png">
-              <h3>Create-OH</h3>
-              <p>About</p>
+            <div class="col-md-3 aboutCol">
+              <h3 class="portfolioTitle">Create-OH</h3>
+              <p class="portfolioText">About</p>
+            </div>
+            <div class="col-md-9 projectImg">
+              <img src="./img/createoh.png" id="createohImg">
               <a href="https://create-oh.herokuapp.com/welcome">
                 <button type="button" class="btn btn-lg">
                   Check it out
@@ -105,10 +116,12 @@
         <!-- Slide Two - Set the background image for this slide in the line below -->
         <div class="carousel-item" id="icebreakers">
           <div class="row" align="center">
-            <div class="col-md-12">
-              <img src="./img/icebreakers.png">
-              <h3>IceBreakers</h3>
-              <p>About</p>
+            <div class="col-md-3 aboutCol">
+              <h3 class="portfolioTitle">IceBreakers</h3>
+              <p class="portfolioText">About</p>
+            </div>
+            <div class="col-md-9 projectImg">
+              <img src="./img/icebreakers.png" id="icebreakersImg">
               <a href="https://icebreakernu.herokuapp.com/">
                 <button type="button" class="btn btn-lg">
                   Check it out
@@ -121,10 +134,12 @@
         <!-- Slide Three - Set the background image for this slide in the line below -->
         <div class="carousel-item" id="succor">
           <div class="row" align="center">
-            <div class="col-md-12">
-              <img src="./img/succor.png">
-              <h3>Succor</h3>
-              <p>About</p>
+            <div class="col-md-3 aboutCol">
+              <h3 class="portfolioTitle">Succor</h3>
+              <p class="portfolioText">About</p>
+            </div>
+            <div class="col-md-9 projectImg">
+              <img src="./img/succor.png" id="succorImg">
               <a href="https://tarahform.github.io/Project-1/">
                 <button type="button" class="btn btn-lg">
                   Check it out
@@ -146,6 +161,7 @@
     </div>
   </header>
 
+  <hr>
 
   <!-- Footer -->
   <footer class="py-5 bg-light text-center">
@@ -166,7 +182,7 @@
           </a>
         </p>
       </div>
-      <p class="m-0">Copyright &copy; Tarah Perry 2018</p>
+      <p id="footerText" class="m-0">&copy; Tarah Perry 2018</p>
     </div>
     <!-- /.container -->
   </footer>

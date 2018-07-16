@@ -1,15 +1,14 @@
-html {
+p, h1, h3 {
   font-family: 'Tajawal', sans-serif;
 }
 
-.carousel-item {
-  min-height: 500px;
-  background: no-repeat scroll;
-  background-position: center;
+#navHR {
+  margin-bottom: 20px;
 }
 
-#createoh, #succor, #icebreakers {
-  margin-bottom: 2%;
+.carousel-item {
+  background: no-repeat scroll;
+  background-position: center;
 }
 
 #professionalLinks {
@@ -17,11 +16,16 @@ html {
 }
 
 .fab {
-  color: rgb(173,175,192);
+  color:rgb(34,139,142);
 }
 
 #contactContainer {
   justify-content: center;
+}
+
+.aboutCol {
+  justify-content: center;
+  margin: auto;
 }
 
 iframe {
@@ -32,21 +36,70 @@ iframe {
   height: 100%;
 }
 
+.projectImg {
+  width: 500px;
+  height: auto;
+}
+
+#bio {
+  margin: auto;
+}
+
 #tarah {
-  height: 300px;
-  width: auto;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+#tarah, #createohImg, #icebreakersImg, #succorImg {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
 }
 
 #aboutMe {
   margin: 5%;
-  background: rgb(173,175,192);
-  border-radius: 15px 50px;
+  background: rgb(34,139,142);
+  border-radius: 20px 60px;
 }
 
 .btn {
-  background: rgb(173,175,192);
+  background: rgb(34,139,142);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  cursor: pointer;
+  color: rgb(109,205,204);
 }
 
+#bioText {
+ color: rgb(109,205,204);
+}
 
+#bioTitle {
+  color: rgb(109,205,204);
+}
 
+.portfolioTitle {
+ color: rgb(34,139,142);
+}
+
+.portfoliotext {
+  color: rgb(71,62,63);
+}
+
+#footerText {
+  color: rgb(109,205,204);
+}
+
+/* color pallet:
+darkcyan: rgb(34,139,142),
+mediumaquamarine: rgb(109,205,204),
+khaki: rgb(248,229,90),
+lightgreen: rgb(144,220,158),
+darkslategray: rgb(71,62,63)
+ */
 

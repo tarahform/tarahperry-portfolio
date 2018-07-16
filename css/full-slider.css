@@ -95,6 +95,43 @@ iframe {
   color: rgb(109,205,204);
 }
 
+#projectsTitle {
+   color: rgb(34,139,142);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  outline: black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: rgb(34,139,142);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: rgb(34,139,142); 
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(109,205,204); 
+  box-shadow: inset 1px 1px 1px 1px rgb(34,139,142);    
+}
+.carousel-indicators .active {
+  margin: 10px;
+  background-color: white; 
+}
+
+
 /* color pallet:
 darkcyan: rgb(34,139,142),
 mediumaquamarine: rgb(109,205,204),

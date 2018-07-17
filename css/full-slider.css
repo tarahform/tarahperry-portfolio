@@ -114,11 +114,11 @@ iframe {
   min-height: 370px;
 }
 
-#projectsTitle {
+#projectsTitle, #skills {
    color: rgb(34,139,142);
 }
 
-.carousel-control-prev, .carousel-control-next, .aboutCol {
+#succor, #icebreakers, #createoh {
   min-height: 375px;
   max-height: 375px;
   justify-content: center;

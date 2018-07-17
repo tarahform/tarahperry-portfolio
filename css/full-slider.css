@@ -49,8 +49,8 @@ iframe {
 
 .projectImg {
   width: 500px;
-  height: auto;
   min-height: 375px;
+  max-height: 375px;
 }
 
 #bio {
@@ -119,8 +119,9 @@ iframe {
    color: rgb(34,139,142);
 }
 
-.carousel-control-prev, .carousel-control-next {
+.carousel-control-prev, .carousel-control-next, .aboutCol {
   min-height: 375px;
+  max-height: 375px;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {

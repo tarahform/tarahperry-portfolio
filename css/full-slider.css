@@ -121,6 +121,7 @@ iframe {
 .carousel-control-prev, .carousel-control-next, .aboutCol {
   min-height: 375px;
   max-height: 375px;
+  justify-content: center;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -128,8 +129,7 @@ iframe {
   background-image: none;
 }
 
-.carousel-control-next-icon:after
-{
+.carousel-control-next-icon:after {
   content: '>';
   font-size: 55px;
   color: rgb(34,139,142);

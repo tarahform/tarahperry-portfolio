@@ -34,11 +34,6 @@ nav {
   justify-content: center;
 }
 
-.aboutCol {
-  justify-content: center;
-  margin: auto;
-}
-
 iframe {
   position: absolute;
   top:0;
@@ -55,10 +50,6 @@ iframe {
 
 #bio {
   margin: auto;
-}
-
-#spaceDiv {
-  min-height: 50px;
 }
 
 #tarah {
@@ -115,6 +106,14 @@ iframe {
   color: rgb(109,205,204);
 }
 
+#projectCard {
+  border-radius: 15px;  
+  margin-left: 50px;
+  margin-right: 50px;
+  max-height: 370px;
+  min-height: 370px;
+}
+
 #projectsTitle {
    color: rgb(34,139,142);
 }
@@ -142,11 +141,9 @@ iframe {
   color: rgb(34,139,142); 
 }
 
-.carousel-indicators li {
-  color: rgb(34,139,142) !important; 
-}
-.carousel-indicators .active {
-  color: white;
+.aboutCol {
+  justify-content: center;
+  align-self: flex-start;
 }
 
 /* color pallet:

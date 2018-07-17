@@ -1,25 +1,30 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
 p, h1, h3, h5 {
   font-family: 'Tajawal', sans-serif;
 }
 
-h5 {
+#bioText, #skillsText, #projectsText, #footerText, #bioTitle, #skillsTitle, #projectsTitle, h5 {
   color: rgb(109,205,204);
-}
+ }
+ 
+ .portfolioTitle {
+  color: rgb(34,139,142);
+ }
+ 
+ .portfoliotext {
+   color: rgb(71,62,63);
+ }
 
 #resumeLink {
   color: rgb(109,205,204);
   text-decoration: none;
   font-size: 20pt;
   font-family: 'Tajawal', sans-serif;
-}
-
-nav {
-  margin-bottom: 10px;
-}
-
-.carousel-item {
-  background: no-repeat scroll;
-  background-position: center;
 }
 
 #professionalLinks {
@@ -35,17 +40,11 @@ nav {
 }
 
 iframe {
-  position: absolute;
+  position: relative;
   top:0;
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-.projectImg {
-  width: 500px;
-  min-height: 375px;
-  max-height: 375px;
 }
 
 #bio {
@@ -55,9 +54,21 @@ iframe {
 #tarah {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+  width: 100%;
+  max-width: 750px;
+  height: auto;
+  max-height: 755px;
+  margin: auto;
+  border-radius: 15px;
 }
 
-#tarah, #createohImg, #icebreakersImg, #succorImg {
+.projectImg {
+  width: 500px;
+  min-height: 375px;
+  max-height: 375px;
+}
+
+#createohImg, #icebreakersImg, #succorImg {
   width: 100%;
   max-width: 750px;
   height: auto;
@@ -66,10 +77,13 @@ iframe {
 }
 
 #aboutMe {
-  margin: auto;
-  max-width: 80%;
   background: rgb(34,139,142);
-  border-radius: 20px 60px;
+  width: 100%;
+}
+
+.aboutCol {
+  justify-content: center;
+  align-self: flex-start;
 }
 
 .btn {
@@ -85,37 +99,12 @@ iframe {
   color: rgb(109,205,204);
 }
 
-#bioText {
- color: rgb(109,205,204);
- font-size: 15pt;
-}
-
-#bioTitle {
-  color: rgb(109,205,204);
-}
-
-.portfolioTitle {
- color: rgb(34,139,142);
-}
-
-.portfoliotext {
-  color: rgb(71,62,63);
-}
-
-#footerText {
-  color: rgb(109,205,204);
-}
-
 #projectCard {
   border-radius: 15px;  
   margin-left: 50px;
   margin-right: 50px;
   max-height: 370px;
   min-height: 370px;
-}
-
-#projectsTitle, #skills {
-   color: rgb(34,139,142);
 }
 
 #succor, #icebreakers, #createoh {
@@ -141,10 +130,12 @@ iframe {
   color: rgb(34,139,142); 
 }
 
-.aboutCol {
-  justify-content: center;
-  align-self: flex-start;
+.carousel-item {
+  background: no-repeat scroll;
+  background-position: center;
 }
+
+
 
 /* color pallet:
 darkcyan: rgb(34,139,142),
